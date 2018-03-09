@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    width: 800x;
+    height: 1150px;
+    /* border: 1px solid orange; */
+    font-family: san-serif;
+    background-image: url(../photo/valley.jpg);
+
+}
+/*navigation */
+
+nav{
+    width: 90%;
+    height: 155px;
+    text-align: center;
+    background: white;
+    margin: auto;
+    border-bottom: 2px solid rgb(206, 201, 201);
+    
+
+}
+
+nav h1{
+    font-size: 2em;
+}
+
+.list ul{
+  padding: 0px;
+  margin-left: 230px;
+
+}
+
+li{
+    padding: 20px;
+    list-style-type: none;
+    float: left;
+    font-size: 1.2em;
+    
+}
+
+
+.clear{
+    clear: both;
+}
+
+/*end of navigation*/
+
+/*second div photograph*/
+.second{
+    padding-top: 15px;
+    margin:auto;
+    width: 90%;
+    height: 465px;
+    background: white;
+    
+    
+    
+}
+
+
+.photo{
+    background-image: url(../photo/photograph.jpg);
+    width: 65%;
+    height: 450px;
+    float: left; 
+}
+
+
+.text{
+    margin-top: 0;
+    width: 35%;
+    height: 450px;
+    float: left;
+    font-size: 1.8em;
+    padding: 20px;
+}
+button{
+    
+    padding: 10px;
+    background: rgb(5, 112, 112);
+    color: white;
+}
+
+
+/* end of second div */
+
+/* third part */
+
+.final{
+    margin:auto;
+    width: 90%;
+    height: 450px;
+    background: white;
+    position: relative;
+    top: 0px;
+    /* border-top: 1px solid rgb(206, 201, 201); */
+    padding-top: 10px;
+    
+}
+.line{
+    position: absolute;
+    height: 2px;
+    width: 360px;
+    color:white;
+    z-index: 1;
+    bottom: 10px;
+    left: 95px;
+}
+
+
+
+.img1{
+    float: left;
+    margin:5px;
+    width: 48%;
+    height: 409px;
+    background-image: url(../photo/longway.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    color:white;
+    
+}
+
+.img2{
+    float: left;
+    margin:5px;;
+    width: 50%;
+    height: 409px;
+    text-align: center;
+    color: white;
+    background-image: url(../photo/fish.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+
+i{
+    position: absolute;
+    z-index: 0;
+    font-size: 2em;
+    color: white;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.img1 p{
+    display: inline-block;
+    padding: 30px;
+    }
+    
+.class1{
+    position: absolute;
+    top:130px;
+    left: 130px;
+}
+
+.class2{
+    position: absolute;
+    top:130px;
+    left: 290px;
+}
+
+
+.img2 p{
+display: inline-block;
+padding: 30px;
+}
+
+.class3{
+position: absolute;
+top: 130px;
+right: 455px;
+}
+
+.class4{
+    position: absolute;
+    top:130px;
+    right: 285px;
+}
+
+
+
+
+
+/* end of third part */
